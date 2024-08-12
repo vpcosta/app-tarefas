@@ -1,0 +1,101 @@
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 40px auto 0 auto;
+  padding: 0 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+}
+
+.main h1 {
+  margin-bottom: 14px;
+}
+
+.task {
+  border: 1.5px solid #909090;
+  padding: 14px;
+  line-height: 150%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task p {
+  white-space: pre-wrap;
+  width: 100%;
+}
+
+.commentsContainer {
+  margin: 18px 0;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.commentsContainer h2 {
+  margin: 14px 0;
+}
+
+.button {
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 5px;
+  border: 0;
+  color: #FFF;
+  background-color: #3183FF;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #256dda;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  background-color: rgba(49, 131, 255, 0.604);
+}
+
+.comment {
+  border: 1px solid #DDD;
+  padding: 14px;
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+
+.commentHead {
+  display: flex;
+  align-items: center;
+}
+
+.commentLabel {
+  background-color: #CCC;
+  padding: 4px 8px;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+.btnTrash {
+  background: transparent;
+  border: 0;
+  margin: 0 8px;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
+.btnTrash:hover {
+  background-color: #ffcaca;
+  border-radius: 3px;
+}
+
+.comment p {
+  margin-top: 14px;
+  white-space: pre-wrap;
+  font-size: 18px;
+}
